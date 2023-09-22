@@ -1,5 +1,4 @@
-@media (min-width: 600px) {
-
+@media (min-width: 640px) {
     body {
         display: grid;
     }
@@ -22,9 +21,6 @@
     }
 
     nav {
-        height: 25px;
-        grid-column-start: 1;
-        grid-column-end: 1;
         text-align: center;
         color: rgb(47, 40, 1);
         background-color: beige;
@@ -33,16 +29,32 @@
         font-weight: bold;
         padding: 20px;
         border: 2px solid #373205;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
     }
 
-    a {
+    nav ul {
         color: #373205;
         text-decoration: none;
-        padding: 14px 25px;
+        list-style-type: none;
+        display: flex;
     }
 
-    a:hover {
+    nav a {
+        color: #373205;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    nav a:hover {
         color: rgb(241, 123, 19);
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
     }
 
     main {
@@ -57,13 +69,22 @@
         border: 2px solid #373205;
     }
 
-    ul {
+    section a {
+        color: #373205;
+        text-decoration: none;
+    }
+
+    section ul {
         margin: 0;
         padding: 0;
     }
 
-    li {
+    section li {
         list-style-type: none;
+    }
+
+    section a:hover {
+        color: rgb(241, 123, 19);
     }
 
     footer {
