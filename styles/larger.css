@@ -39,6 +39,7 @@
         text-decoration: none;
         list-style-type: none;
         display: flex;
+        width: 70%;
     }
 
     nav a {
@@ -46,7 +47,7 @@
         text-decoration: none;
         display: block;
         text-align: center;
-        padding: 1rem;
+        width: auto;
     }
 
     nav a:hover {
