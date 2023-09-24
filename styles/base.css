@@ -79,6 +79,8 @@ section ul {
 
 section li {
     list-style-type: none;
+    font-size: 20px;
+    margin: 5px;
 }
 
 section a:hover {
