@@ -1,0 +1,22 @@
+@media (min-width: 1080px) {
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .visualsection {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .repetitionsection {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .contrastsection {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
