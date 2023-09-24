@@ -38,6 +38,10 @@ section h1 {
     font-size: 30px;
 }
 
+section h3 {
+    font-size: 25px;
+}
+
 img {
     width: 100%;
 }
