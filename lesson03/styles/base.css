@@ -1,24 +1,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap);
 
-body {
-    display: grid;
-}
-
 header {
     height: 100px;
-    grid-column-start: 1;
-    grid-column-end: 2;
     text-align: center;
     color: rgb(47, 40, 1);
     background-color: #e1c479;
     font-family: sans-serif;
     border: 2px solid #373205;
     padding: 50px;
-}
-
-header img {
-    height: 70%;
-    padding: 10px;
 }
 
 nav {
@@ -55,9 +44,6 @@ nav a:hover {
 }
 
 main {
-    height: 900px;
-    grid-column-start: 1;
-    grid-column-end: 1;
     text-align: center;
     color: rgb(47, 40, 1);
     background-color: #e1c479;
@@ -92,12 +78,14 @@ section.card {
 
 footer {
     height: 50px;
-    grid-column-start: 1;
-    grid-column-end: 1;
     text-align: center;
     color: rgb(47, 40, 1);
     background-color: beige;
     font-family: sans-serif;
+}
+
+img {
+    width: 100%;
 }
 
 @media (max-width: 640px) {
@@ -163,8 +151,6 @@ footer {
         content: "📍 ";
     }
 
-
-
     .stuff {
         margin: .5m;
         border: 1px solid rgba(0, 0, 0, .1);
@@ -172,28 +158,8 @@ footer {
         max-width: 580px;
         height: 100vh;
     }
-}
 
-
-.map {
-
-    overflow: hidden;
-
-    padding-bottom: 56.25%;
-
-    position: relative;
-
-    height: 0;
-}
-
-.map iframe {
-    left: 0;
-
-    top: 0;
-
-    height: 100%;
-
-    width: 100%;
-
-    position: absolute;
+    img {
+        width: 100%;
+    }
 }

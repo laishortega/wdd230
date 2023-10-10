@@ -1,12 +1,7 @@
 @media (min-width: 640px) {
-    body {
-        display: grid;
-    }
 
     header {
         height: 50px;
-        grid-column-start: 1;
-        grid-column-end: 2;
         text-align: center;
         color: rgb(47, 40, 1);
         background-color: #e1c479;
@@ -15,10 +10,6 @@
         padding: 50px;
     }
 
-    header img {
-        height: 70%;
-        padding: 10px;
-    }
 
     nav {
         text-align: center;
@@ -59,9 +50,6 @@
     }
 
     main {
-        height: 700px;
-        grid-column-start: 1;
-        grid-column-end: 1;
         text-align: center;
         color: rgb(47, 40, 1);
         background-color: #e1c479;
@@ -90,10 +78,39 @@
         color: rgb(241, 123, 19);
     }
 
+    section.desktopview,
+    section.mobileview {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+    }
+
+    img.homepagedesk,
+    img.homepagemobile {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    img.discoverpagedesk,
+    img.discoverpagemobile {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    img.directorypagedesk,
+    img.directorypagemobile {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    img.joinpagedesk,
+    img.joinpagemobile {
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+
     footer {
         height: 50px;
-        grid-column-start: 1;
-        grid-column-end: 1;
         text-align: center;
         color: rgb(47, 40, 1);
         background-color: beige;
