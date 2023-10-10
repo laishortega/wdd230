@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    height: 300px;
+    height: 100px;
     grid-column-start: 1;
     grid-column-end: 2;
     text-align: center;
@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 main {
-    height: 350px;
+    height: 900px;
     grid-column-start: 1;
     grid-column-end: 1;
     text-align: center;
