@@ -1,0 +1,36 @@
+@media (min-width: 640px) {
+
+    nav {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    nav ul {
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        width: 70%;
+    }
+
+    nav a {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        width: auto;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    main {
+        display: grid;
+    }
+
+}

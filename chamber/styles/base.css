@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap);
+
+body {
+    background-color: rgb(253, 234, 198);
+    display: block;
+}
+
+h1 {
+    color: darkblue;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 70%;
+    object-fit: contain;
+}
+
+nav {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    padding: 0px;
+}
+
+nav ul {
+    color: darkblue;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0px;
+    margin: 0;
+}
+
+
+nav li {
+    text-align: center;
+    margin: 10px;
+    display: block;
+}
+
+nav a {
+    color: darkblue;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+section.joinUs {
+    color: darkblue;
+    text-align: center;
+}
+
+section.heroPhoto {
+    color: darkblue;
+    text-align: center;
+    font-size: 20px;
+}
+
+#giant {
+    text-align: center;
+    width: 100%;
+    object-fit: contain;
+}
+
+main img {
+    text-align: center;
+    width: 50%;
+    object-fit: contain;
+}
+
+section.currentEvents,
+section.weatherCard,
+section.spotlights {
+    text-align: center;
+}
+
+main p {
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    color: darkblue;
+    background-color: orange;
+    height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
+}
