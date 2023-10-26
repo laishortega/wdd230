@@ -54,6 +54,11 @@ nav a:hover {
     color: rgb(241, 123, 19);
 }
 
+.hero {
+    text-align: center;
+    background-color: #e1c479;
+}
+
 main {
     height: 350px;
     grid-column-start: 1;
