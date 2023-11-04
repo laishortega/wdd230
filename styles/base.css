@@ -57,6 +57,22 @@ nav a:hover {
 .hero {
     text-align: center;
     background-color: #e1c479;
+    position: relative;
+}
+
+.hero img {
+    width: 70%;
+    height: auto;
+}
+
+.temple-name p {
+    font-size: 2rem;
+}
+
+.temple-name {
+    position: absolute;
+    left: 500px;
+    top: 500px;
 }
 
 main {
@@ -189,6 +205,7 @@ footer {
     position: relative;
 
     height: 0;
+
 }
 
 .map iframe {
@@ -201,4 +218,5 @@ footer {
     width: 100%;
 
     position: absolute;
+
 }

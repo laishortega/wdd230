@@ -21,6 +21,7 @@ nav {
     font-family: 'Open Sans';
     font-weight: bold;
     padding: 0px;
+    background-color: orange;
 }
 
 nav ul {
@@ -46,7 +47,7 @@ nav a {
 }
 
 nav a:hover {
-    color: orange;
+    color: blue;
 }
 
 section.joinUs {
@@ -59,6 +60,8 @@ section.heroPhoto {
     text-align: center;
     font-size: 20px;
 }
+
+
 
 #giant {
     text-align: center;

@@ -11,6 +11,7 @@
     <meta name="author" content="Laish Ortega">
     <meta name="description" content="WDD 230 - Web Frontend Development, Laish Ortega, Chamber of Commerce Home Page">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.ico">
     <title>Pampanga Chamber of Commerce</title>
     <section class="socialMedia">
         <meta property="og:title" content="Chamber Site" />
@@ -23,7 +24,7 @@
 <body>
 
     <header>
-        <img src="images/PCOC_LOGO.png" alt="Logo">
+        <img src="images/PCOC_LOGO.webp" alt="Logo">
     </header>
 
     <nav>
@@ -35,21 +36,30 @@
         </ul>
     </nav>
     <section class="heroPhoto">
-        <img id="giant" src="images/giant.jpeg" alt="bigparol">
+        <div class="hero-box">
+            <picture>
+                <source srcset="images/wdd230-org-large.webp" media="(min-width: 1100px)">
+                <source srcset="images/wdd230-org-medium.webp" media="(min-width: 550px)">
+                <img src="images/wdd230-org-small.webp" alt="hero image">
+            </picture>
+        </div>
         <h1>Pampanga Chamber of Commerce</h1>
         <p>Our site purpose is to be able to showcase and help different
             businesses in Pampanga with what they can offer.</p>
-        <section class="joinUs">
-            <a href="">JOIN US!</a>
-        </section>
+        <div class="button-box">
+            <a class="join-button" href="join.html">I wish to Join</a>
+        </div>
     </section>
 
 
     <main>
 
         <section class="currentEvents">
-            <img src="images/placeholder.png" alt="">
-            <p>This section will talk more about the events.</p>
+            <img src="images/giantLantern.webp" alt="">
+            <h3>Giant Lantern Festival</h3>
+            <p>Annual festival held in mid-December in the City of San Fernando in the
+                Philippines.</p>
+
         </section>
 
         <section class="weatherCard">
@@ -70,7 +80,8 @@
     </footer>
 
     <script src="scripts/getdates.js"></script>
-    <script src="scripts/hamEvent.js"></script>
+    <script src="scripts/base.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
