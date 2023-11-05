@@ -196,27 +196,13 @@ footer {
 }
 
 
-.map {
-
-    overflow: hidden;
-
-    padding-bottom: 56.25%;
-
-    position: relative;
-
+#map {
     height: 0;
-
 }
 
-.map iframe {
+iframe {
+    position: relative;
     left: 0;
-
     top: 0;
-
-    height: 100%;
-
     width: 100%;
-
-    position: absolute;
-
 }
