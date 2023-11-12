@@ -2,10 +2,40 @@
 
 body {
     background-color: rgb(253, 234, 198);
+    font-family: 'Open Sans';
+}
+
+body.dark {
+    background-color: black;
 }
 
 h1 {
     color: darkblue;
+}
+
+
+body.dark h1 {
+    color: white;
+}
+
+h3.windchill {
+    color: black;
+}
+
+body.dark h3.windchill {
+    color: white;
+}
+
+body.dark p {
+    color: white;
+}
+
+body.dark h3 {
+    color: white;
+}
+
+body.dark a.join-button {
+    color: white;
 }
 
 header {
@@ -17,11 +47,44 @@ header img {
     object-fit: contain;
 }
 
+/*--- Dark and Light Button ---*/
+#dark-btn {
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgba(248, 244, 6, 0.3);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: black;
+}
+
+#dark-btn::before {
+    content: "🌜";
+}
+
+#dark-btn.dark::before {
+    content: "🌞";
+}
+
+/*--- Nav ---*/
+
 nav {
     font-family: 'Open Sans';
     font-weight: bold;
     padding: 0px;
     background-color: orange;
+}
+
+body.dark nav {
+    background-color: #ae981b;
+}
+
+body.dark nav a {
+    color: white;
 }
 
 nav ul {
@@ -47,7 +110,27 @@ nav a {
 }
 
 nav a:hover {
-    color: blue;
+
+    background-color: rgb(255, 215, 114);
+}
+
+body.dark a:hover {
+    border: white;
+    background-color: black;
+}
+
+.active {
+    border: solid 2px darkblue;
+    border-radius: 5px 5px;
+    width: auto;
+    background-color: rgb(255, 215, 114);
+}
+
+body.dark .active {
+    border: white;
+    border-radius: 5px 5px;
+    width: auto;
+    background-color: black;
 }
 
 section.joinUs {
@@ -61,7 +144,9 @@ section.heroPhoto {
     font-size: 20px;
 }
 
-
+body.dark section.herophoto {
+    color: white;
+}
 
 #giant {
     text-align: center;
@@ -90,8 +175,95 @@ main p {
 footer {
     color: darkblue;
     background-color: orange;
-    height: 50px;
-    grid-column-start: 1;
-    grid-column-end: 1;
+    height: 5%;
     text-align: center;
+}
+
+footer p {
+    margin: auto;
+}
+
+body.dark .history {
+    color: black;
+}
+
+body.dark p.lastVisit {
+    color: black;
+}
+
+body.dark footer {
+    color: white;
+    background-color: #ae981b;
+}
+
+/*---- Discover CSS----*/
+
+.discover-main {
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.discover-main section {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+body.dark .discover-main section p {
+    color: black;
+}
+
+.discover-main section h2 {
+    margin: 0;
+    background-color: rgb(250, 182, 57);
+    border-radius: 0 0;
+    padding: 10px;
+}
+
+.discover-main section p {
+    padding: 5px;
+    font-size: 19.09px;
+}
+
+main div label {
+    color: darkblue;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+body.dark main div label {
+    color: white;
+}
+
+.discover-images {
+    margin: 0 auto;
+}
+
+.discover-images img {
+    margin-bottom: 0;
+}
+
+.distinfo {
+    max-width: 390px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/*---- Body Dark ----*/
+
+body.dark main section {
+    color: rgb(255, 255, 255);
+}
+
+body.dark main section p {
+    color: white;
+}
+
+body.dark main section h2,
+body.dark main section.weather p {
+    background-color: #ae981b;
+    color: white;
 }

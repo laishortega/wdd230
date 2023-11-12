@@ -19,4 +19,35 @@
         grid-column-start: 1;
         grid-column-end: 3;
     }
+
+    #dark-btn {
+        width: 37px;
+        height: 37px;
+        font-size: 1.5rem;
+    }
+
+    /*---- Discover CSS----*/
+    .discover-main {
+        display: grid;
+        grid-template-columns: 33% auto;
+    }
+
+    .discover-main section {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .discover-images {
+        grid-column: 2/3;
+        margin: 0 auto;
+    }
+
+    #lastModified {
+        font-size: 1rem;
+    }
+
+    .discover-images img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
 }
