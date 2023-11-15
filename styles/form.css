@@ -1,3 +1,9 @@
+:root {
+    --base-font: "Open Sans";
+    --heading-font: sans-serif;
+    --heading-bakground: orange;
+}
+
 body {
     font-family: 'Open Sans';
 }
