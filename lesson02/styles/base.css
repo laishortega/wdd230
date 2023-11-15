@@ -59,9 +59,7 @@ section p {
 }
 
 footer {
-    height: 50px;
-    grid-column-start: 1;
-    grid-column-end: 1;
+    height: 50%;
     text-align: center;
     color: rgb(47, 40, 1);
     background-color: beige;

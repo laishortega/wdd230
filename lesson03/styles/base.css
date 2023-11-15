@@ -77,12 +77,13 @@ section.card {
 }
 
 footer {
-    height: 50px;
+    height: 50%;
     text-align: center;
     color: rgb(47, 40, 1);
     background-color: beige;
     font-family: sans-serif;
 }
+
 
 img {
     width: 100%;

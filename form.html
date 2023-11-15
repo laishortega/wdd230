@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laish Ortega - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Laish Ortega">
+    <meta name="description" content="WDD 230 - Web Frontend Development, Laish Ortega, Week 08: Form Page">
+    <link rel="icon" href="images/laish.webp" type="image/x-icon">
+    <meta property="og:title" content="Chamber Site">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://laishortega.github.io/wdd230/chamber">
+    <meta property="og:image" content="images/favicon.png">
+</head>
+
+<body>
+    <header>
+        <img src="images/laish.jpeg" alt="Laish's Picture">
+        <h1>Laish Kish T. Ortega</h1>
+    </header>
+    <nav>
+        <button id="menu"></button>
+
+        <ul class="navigation">
+            <li> <a href="#">Home</a></li>
+            <li> <a href="lesson03/chamber-site-plan.html" target="_blank">Site Plan</a></li>
+            <li> <a href="https://laishortega.github.io/wdd230/chamber" target="_blank">Chamber</a></li>
+            <li> <a href="https://www.byui.edu" target="_blank">BYU-Idaho</a></li>
+            <li> <a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-form">
+        <div id="error-message"></div>
+        <form action="record.html" method="get">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                minlength="8" required>
+            <br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password"
+                pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" minlength="8" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$"
+                title="Please enter a valid email address" required>
+            <br>
+            <div id="rating">0</div>
+            <label for="page-rating">Page Rating</label>
+            <input type="range" id="page-rating" name="page-rating" min="1" max="10" value="0">
+
+            <button type="submit">Submit Form</button>
+        </form>
+    </main>
+
+
+    <footer>
+        <p id="footer_1"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamEvent.js"></script>
+    <script src="scripts/form.js"></script>
+
+</body>
+
+</html>

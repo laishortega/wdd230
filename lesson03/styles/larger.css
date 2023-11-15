@@ -110,7 +110,9 @@
     }
 
     footer {
-        height: 50px;
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 1;
         text-align: center;
         color: rgb(47, 40, 1);
         background-color: beige;

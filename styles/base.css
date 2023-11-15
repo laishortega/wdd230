@@ -112,9 +112,7 @@ section.card {
 }
 
 footer {
-    height: 50px;
-    grid-column-start: 1;
-    grid-column-end: 1;
+    height: 100%;
     text-align: center;
     color: rgb(47, 40, 1);
     background-color: beige;
@@ -195,10 +193,6 @@ footer {
     }
 }
 
-
-#map {
-    height: 0;
-}
 
 iframe {
     position: relative;
