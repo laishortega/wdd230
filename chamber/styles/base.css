@@ -360,7 +360,7 @@ body.dark main form legend {
 
 /*---- Thankyou ----*/
 
-.thanks,
+.thankyou,
 .join-main {
     width: 100%;
     max-width: 20rem;
@@ -379,7 +379,7 @@ body.dark main form legend {
     font-weight: bold;
 }
 
-body.dark .thanks {
+body.dark .thankyou {
     color: black;
     border: 4px solid white;
     background-color: beige;
