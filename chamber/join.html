@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta property="og:title" content="Pampanga Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://laishortega.github.io/wdd230/chamber">
+    <meta property="og:image" content="https://www.pexels.com/photo/woman-in-white-shirt-sitting-on-chair-9512007/">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laish Ortega">
+    <meta name="description" content="WDD 230 - Web Frontend Development Website, Laish Ortega, Chamber Join Page">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Home - Pampanga Chamber of Commerce</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/PCOC_LOGO.webp" alt="Logo">
+        <button id="dark-btn"></button>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="https://laishortega.github.io/wdd230/chamber/index.html">HOME</a></li>
+            <li> <a href="https://laishortega.github.io/wdd230/chamber/discover.html">DISCOVER</a></li>
+            <li> <a href="#">DIRECTORY</a></li>
+            <li> <a href="#" class="active">JOIN</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-join">
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name:<input type="text" id="fName" name="fName" required></label>
+                <label class="top">Last Name:<input type="text" id="lName" name="lName" required></label>
+                <label class="top">Email:<input type="email" id="email" name="email" placeholder="eg@gmail.com"
+                        required></label>
+                <label class="top">Phone:<input type="tel" id="phone" name="phone" required></label>
+            </fieldset>
+
+            <fieldset>
+                <Legend>Organization Information</Legend>
+                <label class="top">Organization's Name:<input type="text" id="orgName" name="orgName" required></label>
+                <label class="top">Position:<input type="text" id="position" name="position"
+                        pattern="[a-zA-Z\- ]{7,}"></label>
+                <label class="top">Organization's Desctription:<textarea id="orgDesc" name="orgDesc"></textarea></label>
+            </fieldset>
+
+            <div class="benefit-box">
+                <fieldset class="membership">
+                    <legend>Select Membership</legend>
+                    <label class="sbs"><input class="nonprofit" type="radio" name="membership" value="nonprofit">
+                        Nonprofit
+                        Membership / Free</label>
+                    <label class="sbs"><input class="bronze" type="radio" name="membership" value="bronze" checked>
+                        Bronze
+                        Membership ($500 / Year)</label>
+                    <label class="sbs"><input class="silver" type="radio" name="membership" value="silver"> Silver
+                        Membership
+                        ($650
+                        / Year)</label>
+                    <label class="sbs"><input class="gold" type="radio" name="membership" value="gold"> Gold Membership
+                        ($850 /
+                        Year)</label>
+                </fieldset>
+
+                <div class="benefit">&bull; Invitation to Events<br>
+                    &bull; Access to Trainings
+                </div>
+            </div>
+
+            <input type="hidden" id="timeStamp" name="timeStamp">
+            <input type="submit" id="submitButton" value="Join">
+        </form>
+    </main>
+
+
+    <footer>
+        <p id="footer_1"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/benefits.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/base.js"></script>
+</body>
+
+</html>

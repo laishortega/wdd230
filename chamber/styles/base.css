@@ -128,7 +128,6 @@ body.dark a:hover {
 
 body.dark .active {
     border: white;
-    border-radius: 5px 5px;
     width: auto;
     background-color: black;
 }
@@ -266,4 +265,130 @@ body.dark main section h2,
 body.dark main section.weather p {
     background-color: #ae981b;
     color: white;
+}
+
+/*---- Join ----*/
+
+.join-main {
+    margin-top: 40px;
+}
+
+form label.top {
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.top input {
+    display: block;
+    height: 44px;
+    border: solid 1px rgba(0, 0, 0, .3);
+    width: 90%;
+    padding: .75rem;
+    margin: 0 auto;
+}
+
+body.dark main form fieldset label,
+body.dark main form div div {
+    color: white;
+}
+
+body.dark main form fieldset label input,
+body.dark main form fieldset textarea,
+body.dark main div.thankyou {
+    background-color: beige;
+    color: black;
+}
+
+form label.top textarea {
+    display: block;
+    border: solid 1px brown;
+    width: 90%;
+    height: 15rem;
+    padding: .75rem;
+    overflow-y: auto;
+    resize: none;
+    margin: 0 auto;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 3px solid orange;
+    padding: .5rem 5%;
+}
+
+form fieldset.membership {
+    margin: 0 0 2rem 0;
+}
+
+body.dark main form fieldset,
+body.dark main div.thankyou {
+    border: 3px solid white;
+}
+
+form legend {
+    color: orange;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-weight: bold;
+}
+
+body.dark main form legend {
+    color: white;
+}
+
+#submitButton {
+    margin: 0 auto 2rem auto;
+    width: 100%;
+    height: 44px;
+    max-width: 20rem;
+    text-align: center;
+    display: block;
+    background-color: orange;
+    color: white;
+    cursor: pointer
+}
+
+.benefit {
+    display: none;
+}
+
+/*---- Thankyou ----*/
+
+.thanks {
+    width: 100%;
+    max-width: 20rem;
+    height: 10rem;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px auto;
+    border: 4px solid orange;
+    border-radius: 10px;
+    background-color: white;
+    color: darkblue;
+    font-weight: bold;
+}
+
+body.dark .thanks {
+    color: black;
+    border: 4px solid white;
+    background-color: beige;
+}
+
+
+body main.list section p.gold,
+body main.list section p.silver,
+body main.list section p.bronze,
+body main.list section p.np {
+    display: block;
+    margin: 0;
+    border-radius: 0 10px 10px 0;
 }
