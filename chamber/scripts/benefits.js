@@ -1,12 +1,12 @@
-const nonprofit = document.querySelector(".nonprofit");
-const bronze = document.querySelector(".bronze");
-const silver = document.querySelector(".silver");
-const gold = document.querySelector(".gold");
+const nonprofit = document.querySelector("#nonprofit");
+const bronze = document.querySelector("#bronze");
+const silver = document.querySelector("#silver");
+const gold = document.querySelector("#gold");
 const benefit = document.querySelector(".benefit");
 
 function buttonChange() {
     if (nonprofit.checked) {
-        benefit.innerHTML = `&bull; Free Registration<br>
+        document.getElementById('benefit').innerHTML = `&bull; Free Registration<br>
         &bull; Invitation to Events`;
     }
     else if (bronze.checked) {

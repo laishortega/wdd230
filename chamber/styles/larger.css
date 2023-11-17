@@ -65,3 +65,32 @@
 .discover-images img:hover {
     transform: scale(1.5);
 }
+
+/*---- JOIN CSS----*/
+
+.main-join {
+    display: block;
+}
+
+.main-join form {
+    width: 50%;
+    margin: auto;
+}
+
+form label.top input {
+    height: 1rem;
+}
+
+form label.sbs {
+    padding: .4rem 0;
+}
+
+.benefit {
+    line-height: 1.5;
+}
+
+
+#submitBtn:hover {
+    background-color: beige;
+    color: orange;
+}

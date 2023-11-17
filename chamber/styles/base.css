@@ -269,8 +269,13 @@ body.dark main section.weather p {
 
 /*---- Join ----*/
 
-.join-main {
-    margin-top: 40px;
+.main-join {
+    width: 100%;
+}
+
+form {
+    align-items: center;
+    width: 100%;
 }
 
 form label.top {
@@ -351,10 +356,6 @@ body.dark main form legend {
     background-color: orange;
     color: white;
     cursor: pointer
-}
-
-.benefit {
-    display: none;
 }
 
 /*---- Thankyou ----*/
