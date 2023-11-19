@@ -1,0 +1,31 @@
+h1 {
+    display: block;
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    background-color: rgb(244, 239, 239);
+    padding: 1rem;
+    gap: .5rem;
+}
+
+#cards section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(252, 208, 126);
+    padding: 1rem;
+    border: solid black;
+}
+
+#cards p {
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+footer {
+    text-align: center;
+}
