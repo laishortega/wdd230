@@ -1,11 +1,12 @@
 const baseURL = "https://laishortega.github.io/wdd230/";
-const linksURL = "../data/links.json";
+const linksURL = "https://laishortega.github.io/wdd230/data/links.json";
 const card = document.querySelector(".card");
 
 async function getLinks() {
-    const response = fetch("../data/links.JSON")
-        .then(res => res.json())
-        .then(data => console.log(data))
+    const response = await fetch(linksURL);
+
+
+    displayLinks(data.lessons);
 }
 
 const displayLinks = (lessons) => {
