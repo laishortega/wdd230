@@ -4,7 +4,7 @@ const card = document.querySelector(".card");
 
 async function getLinks() {
     const response = await fetch(linksURL);
-
+    const data = await response.json();
 
     displayLinks(data.lessons);
 }
