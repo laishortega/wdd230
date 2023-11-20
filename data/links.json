@@ -4,12 +4,8 @@
             "lesson": "01",
             "links": [
                 {
-                    "url": "https://codepen.io/blazzard-jason/pen/mdKRJjK",
+                    "url": "https://laishortega.github.io/wdd230/lesson01/holygrail.html",
                     "title": "Holy Grail"
-                },
-                {
-                    "url": "",
-                    "title": ""
                 }
             ]
         },
@@ -17,12 +13,8 @@
             "lesson": "02",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "https://laishortega.github.io/wdd230/lesson02/design-principles.html",
+                    "title": "Design Principles"
                 }
             ]
         },
@@ -30,12 +22,12 @@
             "lesson": "03",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "https://codepen.io/blazzard-jason/pen/LYjLRqN",
+                    "title": "CSS Pseuedo Elements"
                 },
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "https://codepen.io/blazzard-jason/pen/gmGxaj/",
+                    "title": "Humburger Menu"
                 }
             ]
         },
@@ -43,12 +35,8 @@
             "lesson": "04",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "https://codepen.io/blazzard-jason/pen/PoaQgXJ",
+                    "title": "CSS Pseudo Class"
                 }
             ]
         },
@@ -56,12 +44,8 @@
             "lesson": "05",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "https://laishortega.github.io/wdd230/lesson05/bom.html",
+                    "title": "Boof of Mormon - Top 10"
                 }
             ]
         },
@@ -69,12 +53,8 @@
             "lesson": "06",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
+                    "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images",
+                    "title": "Responsive Images"
                 }
             ]
         },

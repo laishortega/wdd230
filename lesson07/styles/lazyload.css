@@ -1,0 +1,17 @@
+img {
+    display: block;
+    margin: 0 auto;
+    border: solid 1px black;
+    background: #000;
+    animation: fade 10s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
