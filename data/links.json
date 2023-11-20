@@ -75,25 +75,29 @@
             "lesson": "08",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "https://laishortega.github.io/wdd230/lesson08/tablebuild.html",
+                    "title": "Table Build - HTML Table"
                 },
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "https://laishortega.github.io/wdd230/form.html",
+                    "title": "My Form"
                 }
+                {
+                    "url": "https://byui.instructure.com/courses/265602/assignments/11723465/submissions/291635",
+                    "title": "Chamber Join Page"
+                },
             ]
         },
         {
             "lesson": "09",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "JSON",
+                    "title": "https://laishortega.github.io/wdd230/lesson09/new-ward-members.json"
                 },
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "https://laishortega.github.io/wdd230/lesson09/prophets.html",
+                    "title": "The Prophets"
                 }
             ]
         },
