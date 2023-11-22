@@ -34,7 +34,20 @@ body.dark h3 {
     color: white;
 }
 
-body.dark a.join-button {
+.join-button {
+    display: absolute;
+    color: darkblue;
+    border: 5px solid orange;
+    border-radius: 3px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.join-button a:hover {
+    background-color: orange;
+}
+
+body.dark .join-button {
     color: white;
 }
 
