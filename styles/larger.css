@@ -5,8 +5,6 @@
 
     header {
         height: 300px;
-        grid-column-start: 1;
-        grid-column-end: 2;
         text-align: center;
         color: rgb(47, 40, 1);
         background-color: #e1c479;
@@ -59,9 +57,6 @@
     }
 
     main {
-        height: 350px;
-        grid-column-start: 1;
-        grid-column-end: 1;
         text-align: center;
         color: rgb(47, 40, 1);
         background-color: #e1c479;
@@ -92,8 +87,6 @@
 
     footer {
         height: 100%;
-        grid-column-start: 1;
-        grid-column-end: 1;
         text-align: center;
         color: rgb(47, 40, 1);
         background-color: beige;

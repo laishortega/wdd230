@@ -76,9 +76,6 @@ nav a:hover {
 }
 
 main {
-    height: 350px;
-    grid-column-start: 1;
-    grid-column-end: 1;
     text-align: center;
     color: rgb(47, 40, 1);
     background-color: #e1c479;
@@ -110,6 +107,12 @@ section a:hover {
 section.card {
     margin: 10px;
 }
+
+.card-information {
+    display: block;
+    flex-direction: column;
+}
+
 
 footer {
     height: 100%;
@@ -195,7 +198,6 @@ footer {
 
 
 iframe {
-    position: relative;
     left: 0;
     top: 0;
     width: 100%;

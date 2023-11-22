@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta property="og:title" content="Pampanga Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://laishortega.github.io/wdd230/chamber">
+    <meta property="og:image" content="https://www.pexels.com/photo/woman-in-white-shirt-sitting-on-chair-9512007/">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laish Ortega">
+    <meta name="description"
+        content="WDD 230 - Web Frontend Development Website, Laish Ortega, Chamber of Commerce Home Page">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Home - Pampanga Chamber of Commerce</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/PCOC_LOGO.webp" alt="Logo">
+        <button id="dark-btn"></button>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="https://laishortega.github.io/wdd230/chamber/index.html" class="active">HOME</a></li>
+            <li> <a href="https://laishortega.github.io/wdd230/chamber/discover.html">DISCOVER</a></li>
+            <li> <a href="#">DIRECTORY</a></li>
+            <li> <a href="https://laishortega.github.io/wdd230/chamber/join.html">JOIN</a></li>
+        </ul>
+    </nav>
+    <section class="heroPhoto">
+        <div class="hero-box">
+            <picture>
+                <source srcset="images/wdd230-org-large.webp" media="(min-width: 1100px)">
+                <source srcset="images/wdd230-org-medium.webp" media="(min-width: 550px)">
+                <img src="images/wdd230-org-small.webp" alt="hero image">
+            </picture>
+        </div>
+        <h1>Pampanga Chamber of Commerce</h1>
+        <p>Our site purpose is to be able to showcase and help different
+            businesses in Pampanga with what they can offer.</p>
+        <div class="button-box">
+            <a class="join-button" href="join.html">I wish to Join</a>
+        </div>
+    </section>
+
+
+    <main>
+
+    </main>
+
+    <footer>
+        <p id="footer_1"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/base.js"></script>
+    <script src="scripts/members.js"></script>
+</body>
+
+</html>
