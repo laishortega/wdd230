@@ -84,6 +84,10 @@ main {
     border: 2px solid #373205;
 }
 
+section {
+    margin: 5px;
+}
+
 section a {
     color: #373205;
     text-decoration: none;
@@ -105,12 +109,15 @@ section a:hover {
 }
 
 section.card {
-    margin: 10px;
+    display: block;
+    border: 3px solid #373205;
+    border-radius: 6px;
 }
 
 .card-information {
     display: block;
-    flex-direction: column;
+    border: 3px solid #373205;
+    border-radius: 6px;
 }
 
 
