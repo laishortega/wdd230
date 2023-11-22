@@ -32,5 +32,3 @@ document.querySelector("#dark-btn").addEventListener("click", () => {
     document.querySelector("#dark-btn").classList.toggle("dark");
     document.querySelector("body").classList.toggle("dark");
 });
-
- last element in the document with the id of span
