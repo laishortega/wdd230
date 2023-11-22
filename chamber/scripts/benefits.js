@@ -6,24 +6,24 @@ const benefit = document.querySelector(".benefit");
 
 function buttonChange() {
     if (nonprofit.checked) {
-        document.getElementById('benefit').innerHTML = `&bull; Free Registration<br>
-        &bull; Trial training for a month`;
+        document.getElementById('benefit').innerHTML = `&rarr; Free to Register!<br>
+        &rarr; Trial training for a month`;
     }
     else if (bronze.checked) {
-        benefit.innerHTML = `&bull; Special Events<br>
-        &bull; Membership plan for 1 year`;
+        benefit.innerHTML = `&rarr; Special Events<br>
+        &rarr; Membership plan for 1 year`;
     }
     else if (silver.checked) {
-        benefit.innerHTML = `&bull; Special Events<br>
-        &bull; Membership plan for 2 years<br>
-        &bull; 10% Special Event Discount`;
+        benefit.innerHTML = `&rarr; Special Events<br>
+        &rarr; Membership plan for 2 years<br>
+        &rarr; 15% Special Event Discount`;
     }
     else {
-        benefit.innerHTML = `&bull; Freebies<br>
-        &bull; Membership plan for 4 years<br>
-        &bull; 20% Special Event Discount<br>
-        &bull; 20% Training Discount<br>
-        &bull; Can Join the Spotlight Contest`;
+        benefit.innerHTML = `&rarr; Freebies<br>
+        &rarr; Membership plan for 4 years<br>
+        &rarr; 20% Special Event Discount<br>
+        &rarr; 20% Training Discount<br>
+        &rarr; Can Join the Spotlight Contest`;
     }
 }
 

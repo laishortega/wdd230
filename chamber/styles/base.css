@@ -51,23 +51,21 @@ header img {
 #dark-btn {
     width: 25px;
     height: 25px;
-    border: 1px solid rgba(248, 244, 6, 0.3);
-    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     right: 10px;
     top: 10px;
-    background-color: black;
+    background-color: beige;
 }
 
 #dark-btn::before {
-    content: "🌜";
+    content: "🌙";
 }
 
 #dark-btn.dark::before {
-    content: "🌞";
+    content: "🔆";
 }
 
 /*--- Nav ---*/
