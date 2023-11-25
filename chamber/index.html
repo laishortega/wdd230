@@ -60,8 +60,35 @@
         </section>
 
         <section class="weatherCard">
-            <img src="images/weather.webp" alt="">
-            <h3 class="windchill">Weather Today in Pampanga!</h3>
+            <h3 class="weatherTitle">Pampanga Weather</h>
+                <div class="weatherBox">
+                    <label>Today</label>
+                    <img class="wIcon" src="#" alt="#">
+                    <span class="wTemp"></span>
+                    <span class="wDescription"></span>
+                    <div>
+                        <div class="forecastBox">
+                            <section>
+                                <p class="day1name"></p>
+                                <span class="day1min"></span>
+                                <span class="day1max"></span>
+                            </section>
+                            <section>
+                                <p class="day2name"></p>
+                                <span class="day2min"></span>
+                                <span class="day2max"></span>
+                            </section>
+                            <section>
+                                <p class="day3name"></p>
+                                <span class="day3min"></span>
+                                <span class="day3max"></span>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <p class="windchill"></p>
+        </section>
+
         </section>
 
         <section class="spotlights">
@@ -77,9 +104,11 @@
         <p id="lastModified"></p>
     </footer>
 
+    <script src="scripts/hamEvent.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/base.js"></script>
     <script src="scripts/windchill.js"></script>
+
 </body>
 
 </html>
