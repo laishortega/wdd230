@@ -3,50 +3,58 @@
         {
             "name": "Task Us Pampanga",
             "address": "Clark BPO, Pampanga",
-            "phone-number": "(888) 400-TASK",
-            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "phone": "(888) 400-TASK",
+            "website": "https://www.taskus.com/locations/philippines/pampanga/",
             "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership-level": "NP"
+            "membership": "NP"
         },
         {
             "name": "Task Us Pampanga",
             "address": "Clark BPO, Pampanga",
-            "phone-number": "(888) 400-TASK",
-            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "phone": "(888) 400-TASK",
+            "website": "https://www.taskus.com/locations/philippines/pampanga/",
             "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership-level": "NP"
+            "membership": "NP"
         },
         {
             "name": "Task Us Pampanga",
             "address": "Clark BPO, Pampanga",
-            "phone-number": "(888) 400-TASK",
-            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "phone": "(888) 400-TASK",
+            "website": "https://www.taskus.com/locations/philippines/pampanga/",
             "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership-level": "NP"
+            "membership": "NP"
         },
         {
             "name": "Task Us Pampanga",
             "address": "Clark BPO, Pampanga",
-            "phone-number": "(888) 400-TASK",
-            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "phone": "(888) 400-TASK",
+            "website": "https://www.taskus.com/locations/philippines/pampanga/",
             "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership-level": "NP"
+            "membership": "NP"
         },
         {
             "name": "Task Us Pampanga",
             "address": "Clark BPO, Pampanga",
-            "phone-number": "(888) 400-TASK",
-            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "phone": "(888) 400-TASK",
+            "website": "https://www.taskus.com/locations/philippines/pampanga/",
             "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership-level": "NP"
+            "membership": "NP"
         },
         {
             "name": "Task Us Pampanga",
             "address": "Clark BPO, Pampanga",
-            "phone-number": "(888) 400-TASK",
-            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "phone": "(888) 400-TASK",
+            "website": "https://www.taskus.com/locations/philippines/pampanga/",
             "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership-level": "NP"
+            "membership": "NP"
+        },
+        {
+            "name": "Task Us Pampanga",
+            "address": "Clark BPO, Pampanga",
+            "phone": "(888) 400-TASK",
+            "website": "https://www.taskus.com/locations/philippines/pampanga/",
+            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
+            "membership": "NP"
         }
     ]
 }
