@@ -2,59 +2,51 @@
     "members": [
         {
             "name": "Task Us Pampanga",
-            "address": "Clark BPO, Pampanga",
+            "address": "Clark BPO, Pampanga, PH",
             "phone": "(888) 400-TASK",
             "website": "https://www.taskus.com/locations/philippines/pampanga/",
             "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership": "NP"
+            "membership": "np"
         },
         {
-            "name": "Task Us Pampanga",
-            "address": "Clark BPO, Pampanga",
-            "phone": "(888) 400-TASK",
-            "website": "https://www.taskus.com/locations/philippines/pampanga/",
-            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership": "NP"
+            "name": "Business Consultant Company",
+            "address": "#301 Omnistellar Bldg, Blk 29 Fil-Am Friendship High-Way, Angeles City, PH",
+            "phone": "+63-917-512-0713",
+            "website": "https://www.omnistellar.solutions/",
+            "image": "https://static.wixstatic.com/media/7ce376_a1d6b8fa3a06448fa45ef8794a6e9de3~mv2.jpg/v1/crop/x_0,y_1,w_1419,h_301/fill/w_538,h_114,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/7ce376_a1d6b8fa3a06448fa45ef8794a6e9de3~mv2.jpg",
+            "membership": "Silver"
         },
         {
-            "name": "Task Us Pampanga",
-            "address": "Clark BPO, Pampanga",
-            "phone": "(888) 400-TASK",
-            "website": "https://www.taskus.com/locations/philippines/pampanga/",
-            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership": "NP"
+            "name": "DBA Global Shared Services",
+            "address": "Clark Tech Hub-1, Pampanga, PH",
+            "phone": "+ 612-8065-4711",
+            "website": "https://www.dbaadvisory.com/",
+            "image": "https://www.dbaadvisory.com/wp-content/uploads/2018/08/DBA-Global-Logo31.png",
+            "membership": "Silver"
         },
         {
-            "name": "Task Us Pampanga",
-            "address": "Clark BPO, Pampanga",
-            "phone": "(888) 400-TASK",
-            "website": "https://www.taskus.com/locations/philippines/pampanga/",
-            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership": "NP"
+            "name": "RLX Business Solutions",
+            "address": "Nepo Bld. Angeles, Pampanga, PH",
+            "phone": "+639-1212-9219",
+            "website": "https://relax.ph/",
+            "image": "https://relax.ph/wp-content/uploads/2017/10/RLX-BS-Logo-300px-50.jpg?ezimgfmt=ng:webp/ngcb3",
+            "membership": "Gold"
         },
         {
-            "name": "Task Us Pampanga",
-            "address": "Clark BPO, Pampanga",
-            "phone": "(888) 400-TASK",
-            "website": "https://www.taskus.com/locations/philippines/pampanga/",
-            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership": "NP"
+            "name": "PBO Global",
+            "address": "Clark, Pampanga",
+            "phone": "555-343-5343",
+            "website": "https://pboglobal.com/",
+            "image": "https://i0.wp.com/pboglobal.com/wp-content/uploads/2022/12/pbo-global-website-logo.png?fit=150%2C150&ssl=1",
+            "membership": "Gold"
         },
         {
-            "name": "Task Us Pampanga",
-            "address": "Clark BPO, Pampanga",
-            "phone": "(888) 400-TASK",
-            "website": "https://www.taskus.com/locations/philippines/pampanga/",
-            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership": "NP"
-        },
-        {
-            "name": "Task Us Pampanga",
-            "address": "Clark BPO, Pampanga",
-            "phone": "(888) 400-TASK",
-            "website": "https://www.taskus.com/locations/philippines/pampanga/",
-            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
-            "membership": "NP"
+            "name": "Tapnach",
+            "address": "Brgy. Dolores, City of San Fernando",
+            "phone": "(+63) 933 810 4053",
+            "website": "https://tapnachph.com/",
+            "image": "https://tapnachph.com/wp-content/uploads/2022/02/new-logo.png",
+            "membership": "Gold"
         }
     ]
 }

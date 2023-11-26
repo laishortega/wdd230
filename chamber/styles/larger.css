@@ -29,11 +29,6 @@
         flex: 1 1 100%;
     }
 
-    main {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
     section.currentEvents {
         grid-column-start: 1;
         grid-column-end: 2;
@@ -96,6 +91,10 @@ form label.sbs {
 }
 
 /*---- Directory Page ----*/
+
+.grid {
+    display: grid;
+}
 
 .grid {
     grid-template-columns: 1fr 1fr;

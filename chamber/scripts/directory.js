@@ -4,7 +4,6 @@ const tiles = document.querySelector('#tiles');
 
 async function getlinkdata() {
     const response = await fetch(membersURL);
-    // const response = await fetch();
     const data = await response.json();
     console.log(data.members);
 
@@ -14,7 +13,7 @@ async function getlinkdata() {
 getlinkdata();
 
 const displayMembers = (members) => {
-    // card build will go here
+    // card will go here!
     members.forEach((member) => {
         let tile = document.createElement('section');
         let name = document.createElement('h3');
@@ -35,7 +34,6 @@ const displayMembers = (members) => {
         icon.setAttribute('alt', `Business Icon for ${member.name}`);
         icon.setAttribute('loading', 'lazy');
         icon.setAttribute('width', '200px');
-        // icon.setAttribute('height', '440');
 
         tile.setAttribute('class', 'card');
 
@@ -50,24 +48,18 @@ const displayMembers = (members) => {
     });
 }
 
-
-
-
-
 // View changer - grid & list
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
 gridbutton.addEventListener("click", () => {
-    // example using arrow function
+    // using arrow function
     display.classList.add("grid");
     display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); // example using defined function
+listbutton.addEventListener("click", showList); //using defined function
 
 function showList() {
     display.classList.add("list");

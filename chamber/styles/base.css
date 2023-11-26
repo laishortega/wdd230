@@ -35,7 +35,6 @@ body.dark h3 {
 }
 
 .join-button {
-    display: absolute;
     color: darkblue;
     border: 5px solid orange;
     border-radius: 3px;
@@ -49,6 +48,7 @@ body.dark h3 {
 
 body.dark .join-button {
     color: white;
+    border: 5px solid #ae981b;
 }
 
 header {
@@ -391,6 +391,11 @@ body.dark main form legend {
     cursor: pointer
 }
 
+body.dark #submitButton {
+    color: white;
+    cursor: pointer
+}
+
 /*---- Thankyou ----*/
 
 .thankyou,
@@ -432,21 +437,21 @@ body main.list section p.np {
 #directory-title {
     margin: 1.5rem;
     font-size: 2.5rem;
+    text-align: center;
 }
 
 .display-view {
+    text-align: center;
     margin: .25rem auto;
     border: 1px solid var(--color-border);
     border-radius: 5px;
     padding: 2rem;
-    background-color: #AAC4E0;
-    font-family: 'Merriweather', Arial, 'Times New Roman';
+    font-family: 'Open Sans';
     position: relative;
 }
 
 .display-view #grid {
     color: #10132F;
-    position: absolute;
     padding: 1rem;
     font-weight: 700;
     font-size: 1.75rem;
@@ -457,7 +462,6 @@ body main.list section p.np {
 
 .display-view #list {
     color: #10132F;
-    position: absolute;
     padding: 1rem;
     font-weight: 700;
     font-size: 1.75rem;
@@ -471,10 +475,40 @@ article {
 }
 
 /*---- Grid View ----*/
+section.card {
+    text-align: center;
+    border: solid 1px whitesmoke;
+    background-color: white;
+    color: darkblue;
+    line-height: 1em;
+}
+
+body.dark section.card {
+    border: solid 2px white;
+    background-color: black;
+    color: white;
+}
+
+section.card a {
+    text-decoration: underline;
+    color: darkblue;
+    font-family: "Open Sans";
+}
+
+body.dark section.card a {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans";
+}
+
+
+.directory-main {
+    display: block;
+}
+
 .grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5px;
+    grid-template-columns: .5fr;
+    grid-gap: 10px;
 }
 
 .grid img {
@@ -483,19 +517,28 @@ article {
 }
 
 .grid p {
-    margin: 0;
+
     line-height: 1.45rem;
 }
 
 .grid a {
-    font-family: "Quattrocento Sans", Arial, Helvetica, sans-serif;
+    font-family: "Open Sans";
     text-decoration: none;
-    color: var(--color-fg);
+    color: orange;
 }
 
 .grid a:hover,
 .list a:hover {
     text-shadow: var(--color-fg) 2px 2px 5px;
+}
+
+.grid section h3 {
+    background-color: orange;
+    padding: 5px;
+}
+
+body.dark .grid section h3 {
+    background-color: #ae981b;
 }
 
 /*---- List View ----*/
@@ -538,8 +581,17 @@ article {
     font-size: larger;
 }
 
+body.dark .list section h3 {
+    font-size: 1rem;
+    font-family: Roboto, Helvetica, sans-serif;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: larger;
+}
+
 .list a {
-    color: #10132F;
+    color: darkblue;
     text-decoration: none;
     font-family: "Quattrocento Sans", Arial, Helvetica, sans-serif;
 }
@@ -549,7 +601,11 @@ article {
 }
 
 .list section:nth-child(even) {
-    background-color: #AAC4E0;
+    background-color: orange;
+}
+
+body.dark .list section:nth-child(even) {
+    background-color: #ae981b;
 }
 
 .list section:nth-child(odd) {
