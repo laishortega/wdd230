@@ -94,3 +94,18 @@ form label.sbs {
     background-color: beige;
     color: orange;
 }
+
+/*---- Directory Page ----*/
+
+.grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid h3 {
+    line-height: 1.5rem;
+}
+
+.list section {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}

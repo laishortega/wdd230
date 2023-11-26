@@ -427,3 +427,131 @@ body main.list section p.np {
     margin: 0;
     border-radius: 0 10px 10px 0;
 }
+
+/*---- Directory Page ----*/
+#directory-title {
+    margin: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.display-view {
+    margin: .25rem auto;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: #AAC4E0;
+    font-family: 'Merriweather', Arial, 'Times New Roman';
+    position: relative;
+}
+
+.display-view #grid {
+    color: #10132F;
+    position: absolute;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.75rem;
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+}
+
+.display-view #list {
+    color: #10132F;
+    position: absolute;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.75rem;
+    top: 25%;
+    right: 25%;
+    transform: translate(25%, -25%);
+}
+
+article {
+    margin-top: 1rem;
+}
+
+/*---- Grid View ----*/
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.grid img {
+    padding: 1rem 0 .5rem 0;
+    width: 25%;
+}
+
+.grid p {
+    margin: 0;
+    line-height: 1.45rem;
+}
+
+.grid a {
+    font-family: "Quattrocento Sans", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: var(--color-fg);
+}
+
+.grid a:hover,
+.list a:hover {
+    text-shadow: var(--color-fg) 2px 2px 5px;
+}
+
+/*---- List View ----*/
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: .2rem;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    color: #10132F;
+    margin: 0;
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+}
+
+.list section>* {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+    /* smaller viewports only */
+}
+
+.list section h3 {
+    font-size: 1rem;
+    font-family: Roboto, Helvetica, sans-serif;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #10132F;
+    font-size: larger;
+}
+
+.list a {
+    color: #10132F;
+    text-decoration: none;
+    font-family: "Quattrocento Sans", Arial, Helvetica, sans-serif;
+}
+
+.list p {
+    line-height: 1.6rem;
+}
+
+.list section:nth-child(even) {
+    background-color: #AAC4E0;
+}
+
+.list section:nth-child(odd) {
+    background-color: whitesmoke;
+}

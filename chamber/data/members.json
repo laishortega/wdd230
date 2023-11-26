@@ -1,118 +1,52 @@
 {
-    "lessons": [
+    "members": [
         {
-            "lesson": "01",
-            "links": [
-                {
-                    "url": "https://laishortega.github.io/wdd230/lesson01/holygrail.html",
-                    "title": "Holy Grail"
-                }
-            ]
+            "name": "Task Us Pampanga",
+            "address": "Clark BPO, Pampanga",
+            "phone-number": "(888) 400-TASK",
+            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
+            "membership-level": "NP"
         },
         {
-            "lesson": "02",
-            "links": [
-                {
-                    "url": "https://laishortega.github.io/wdd230/lesson02/design-principles.html",
-                    "title": "Design Principles"
-                }
-            ]
+            "name": "Task Us Pampanga",
+            "address": "Clark BPO, Pampanga",
+            "phone-number": "(888) 400-TASK",
+            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
+            "membership-level": "NP"
         },
         {
-            "lesson": "03",
-            "links": [
-                {
-                    "url": "https://codepen.io/blazzard-jason/pen/LYjLRqN",
-                    "title": "CSS Pseuedo Elements"
-                },
-                {
-                    "url": "https://codepen.io/blazzard-jason/pen/gmGxaj/",
-                    "title": "Humburger Menu"
-                }
-            ]
+            "name": "Task Us Pampanga",
+            "address": "Clark BPO, Pampanga",
+            "phone-number": "(888) 400-TASK",
+            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
+            "membership-level": "NP"
         },
         {
-            "lesson": "04",
-            "links": [
-                {
-                    "url": "https://codepen.io/blazzard-jason/pen/PoaQgXJ",
-                    "title": "CSS Pseudo Class"
-                }
-            ]
+            "name": "Task Us Pampanga",
+            "address": "Clark BPO, Pampanga",
+            "phone-number": "(888) 400-TASK",
+            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
+            "membership-level": "NP"
         },
         {
-            "lesson": "05",
-            "links": [
-                {
-                    "url": "https://laishortega.github.io/wdd230/lesson05/bom.html",
-                    "title": "Boof of Mormon - Top 10"
-                }
-            ]
+            "name": "Task Us Pampanga",
+            "address": "Clark BPO, Pampanga",
+            "phone-number": "(888) 400-TASK",
+            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
+            "membership-level": "NP"
         },
         {
-            "lesson": "06",
-            "links": [
-                {
-                    "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images",
-                    "title": "Responsive Images"
-                }
-            ]
-        },
-        {
-            "lesson": "07",
-            "links": [
-                {
-                    "url": "https://laishortega.github.io/wdd230/lesson07/lazyload.html",
-                    "title": "Lazy Loading"
-                },
-                {
-                    "url": "https://laishortega.github.io/wdd230/lesson07/bom.html",
-                    "title": "Book of Mormon Pt 2"
-                }
-            ]
-        },
-        {
-            "lesson": "08",
-            "links": [
-                {
-                    "url": "https://laishortega.github.io/wdd230/lesson08/tablebuild.html",
-                    "title": "Table Build - HTML Table"
-                },
-                {
-                    "url": "https://laishortega.github.io/wdd230/form.html",
-                    "title": "My Form"
-                },
-                {
-                    "url": "https://laishortega.github.io/wdd230/chamber/join.html",
-                    "title": "Chamber Join Page"
-                }
-            ]
-        },
-        {
-            "lesson": "09",
-            "links": [
-                {
-                    "url": "https://laishortega.github.io/wdd230/lesson09/new-ward-members.json",
-                    "title": "JSON"
-                },
-                {
-                    "url": "https://laishortega.github.io/wdd230/lesson09/prophets.html",
-                    "title": "The Prophets"
-                }
-            ]
-        },
-        {
-            "lesson": "10",
-            "links": [
-                {
-                    "url": "",
-                    "title": ""
-                },
-                {
-                    "url": "",
-                    "title": ""
-                }
-            ]
+            "name": "Task Us Pampanga",
+            "address": "Clark BPO, Pampanga",
+            "phone-number": "(888) 400-TASK",
+            "website-url": "https://www.taskus.com/locations/philippines/pampanga/",
+            "image": "https://www.taskus.com/wp-content/themes/yootheme/cache/a9/atoms-logo-dark@3x-1-a9c6a6ab.webp",
+            "membership-level": "NP"
         }
     ]
 }
