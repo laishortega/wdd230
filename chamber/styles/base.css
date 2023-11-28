@@ -704,7 +704,7 @@ body.dark .list section h3 {
 }
 
 .list section:nth-child(even) {
-    background-color: orange;
+    background-color: whitesmoke;
 }
 
 body.dark .list section:nth-child(even) {
@@ -712,5 +712,5 @@ body.dark .list section:nth-child(even) {
 }
 
 .list section:nth-child(odd) {
-    background-color: whitesmoke;
+    background-color: orange;
 }
