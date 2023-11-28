@@ -172,8 +172,19 @@ main img {
 
 section.currentEvents,
 section.weatherCard,
-section.spotlights {
+section.spotlight {
     text-align: center;
+}
+
+.currentEvents img {
+    width: 500px;
+    justify-content: center;
+}
+
+.spotlight {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: .5fr .5fr .5fr;
 }
 
 .weatherBox {
@@ -393,7 +404,8 @@ body.dark main form legend {
 
 body.dark #submitButton {
     color: white;
-    cursor: pointer
+    cursor: pointer;
+    background-color: #ae981b;
 }
 
 /*---- Thankyou ----*/
