@@ -1,4 +1,7 @@
-@media (min-width: 1400px) {
+@media (min-width: 650px) {
+    #menu {
+        display: none;
+    }
 
     nav {
         text-align: center;
