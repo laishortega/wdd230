@@ -545,7 +545,6 @@ body main.list section p.np {
 .display-view {
     text-align: center;
     margin: .25rem auto;
-    border: 1px solid var(--color-border);
     border-radius: 5px;
     padding: 2rem;
     font-family: 'Open Sans';
@@ -631,7 +630,7 @@ body.dark section.card a {
 
 .grid a:hover,
 .list a:hover {
-    text-shadow: var(--color-fg) 2px 2px 5px;
+    text-shadow: gray;
 }
 
 .grid section h3 {
