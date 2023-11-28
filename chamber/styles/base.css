@@ -158,6 +158,20 @@ body.dark section.herophoto {
     color: white;
 }
 
+#banner {
+    padding: .5rem;
+    background-color: orange;
+    color: white;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    cursor: pointer;
+}
+
 #giant {
     text-align: center;
     width: 100%;
