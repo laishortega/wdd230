@@ -579,9 +579,11 @@ article {
 section.card {
     text-align: center;
     border: solid 1px whitesmoke;
-    background-color: white;
+    background-color: whitesmoke;
     color: darkblue;
     line-height: 1em;
+
+
 }
 
 body.dark section.card {
