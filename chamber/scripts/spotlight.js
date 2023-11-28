@@ -31,7 +31,7 @@ function displayMembers(randomCompanies) {
         companyCard.appendChild(companyName);
 
         const companyURL = document.createElement("a");
-        companyURL.setAttribute("href", randomCompanies[i].url);
+        companyURL.setAttribute("href", randomCompanies[i].website);
         companyURL.setAttribute("target", "_blank");
         companyURL.setAttribute("title", "Visit Website");
         companyCard.appendChild(companyURL);
