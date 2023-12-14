@@ -1,4 +1,4 @@
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 700px) {
     header {
         display: grid;
         grid-template-columns: 100px 3fr 100px;
@@ -55,5 +55,11 @@
     footer>p,
     footer>a {
         grid-column: 1/3;
+    }
+
+    /* Rentals Page Styles */
+    .rentals-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }

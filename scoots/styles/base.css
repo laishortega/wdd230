@@ -185,3 +185,20 @@ footer>p {
 .weather-container {
     text-align: center;
 }
+
+/* Rentals Page Styles */
+.rentals-page {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.rentals-page div {
+    width: 100%;
+    border: solid 2px solid;
+    margin-bottom: 30px;
+}
+
+.rentals-page div table {
+    width: 80%;
+}
