@@ -2,7 +2,7 @@ const listElement = document.querySelector(".rentals-page")
 
 function scootsTemplate(scoot) {
     return `
-        <div>
+        <div class="scooter-card">
             <img src="${scoot.image}" alt="image of ${scoot.rentalType}">
             <Table
                 style="border-collapse: collapse; border: 1px solid #000000; margin-left: auto; margin-right: auto;"
