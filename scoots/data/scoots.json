@@ -11,7 +11,7 @@
                 "halfDay": "$25",
                 "fullDay": "$35"
             },
-            "image": ""
+            "image": "https://laishortega.github.io/wdd230/scoots/images/honda-metro.webp"
         },
         {
             "rentalType": "Honda Dio Scooter",
@@ -24,7 +24,7 @@
                 "halfDay": "$35",
                 "fullDay": "$45"
             },
-            "image": ""
+            "image": "https://laishortega.github.io/wdd230/scoots/images/honda-dio.webp"
         },
         {
             "rentalType": "Honda PCX150 Scooter",
@@ -37,7 +37,7 @@
                 "halfDay": "$45",
                 "fullDay": "$55"
             },
-            "image": ""
+            "image": "https://laishortega.github.io/wdd230/scoots/images/honda-pcx150.webp"
         },
         {
             "rentalType": "Honda Pioneer ATV",
@@ -63,7 +63,7 @@
                 "halfDay": "$85",
                 "fullDay": "$125"
             },
-            "image": ""
+            "image": "https://laishortega.github.io/wdd230/scoots/images/jeep-wrangler-4doors.webp"
         },
         {
             "rentalType": "Jeep Wrangler - 2 door",
@@ -76,7 +76,7 @@
                 "halfDay": "$70",
                 "fullDay": "$90"
             },
-            "image": ""
+            "image": "https://laishortega.github.io/wdd230/scoots/images/jeep-wrangler-2-door.webp"
         }
     ]
 }
