@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/ultrawide.css">
+    <meta property="og:image" content="images/favicon.png">
+    <meta name="author" content="Laish Ortega">
+    <meta name="description"
+        content="Home page of Scoots, Scooter Rental Services in Mexico. This website is to promote the rental services for the customers who'd like to do their homework before going to the island.">
+    <link rel="icon" href="images/ScootsLogo.webp" type="image/x-icon">
+    <meta property="og:title" content="Scoots Rental Services">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/ogimage.webp">
+    <meta property="og:url" content="https://laishortega.github.io/wdd230/scoots">
+
+
+    <title>Home - Scoots</title>
+
+</head>
+
+<body>
+    <div class="alert-box">
+        This is an alert box
+        <span class="close-btn" onclick="this.parentElement.style.display='none';">&times;</span>
+    </div>
+    <header>
+        <div class="logo"><img src="images/ScootsLogo.webp" alt="Scoots logo" height="70px"></div>
+        <h1>Scoots Rental Services</h1>
+        <div class="dark-container"><button id="dark-btn"></button></div>
+    </header>
+
+    <nav class="navigation">
+        <ul>
+            <li> <a href="index.html" class="active">Home</a></li>
+            <li> <a href="rentals.html">Rentals</a></li>
+            <li> <a href="reservations.html">Reservations</a></li>
+            <li> <a href="contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="hero-box">
+            <picture>
+                <source srcset="images/beach-Large.webp" media="(min-width: 1100px)">
+                <source srcset="images/beach-Medium.webp" media="(min-width: 550px)">
+                <img src="images/beach-Small.webp" alt="East Cozumel beach" width="550" height="145">
+            </picture>
+            <div class="call-to-action-container">
+                <a href="reservations.html">RENT A RIDE!!!</a>
+            </div>
+        </div>
+        <div class="home-page">
+            <div class="rental-price">
+                <table
+                    style="border-collapse: collapse; border: 1px solid #000000; margin-left: auto; margin-right: auto;"
+                    border="1" cellpadding="5">
+
+                    <tbody>
+                        <tr>
+                            <td style="background-color: navy; text-align: center;" colspan="6"><span
+                                    style="color: #ffffff; font-size: 14pt;"><strong>Max Rental Pricing</strong></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td style="text-align: center;" colspan="2"><strong>Reservation</strong></td>
+                            <td style="text-align: center;" colspan="2"><strong>Walk-In</strong></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;"><strong>Rental Type</strong></td>
+                            <td style="text-align: center;"><strong>Max. Persons</strong></td>
+                            <td style="text-align: center;"><strong>Half Day<br>(3 hrs)</strong></td>
+                            <td style="text-align: center;"><strong>Full Day</strong></td>
+                            <td style="text-align: center;"><strong>Half Day<br>(3 hrs)</strong></td>
+                            <td style="text-align: center;"><strong>Full Day</strong></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">~Honda Metro Scooter</td>
+                            <td style="text-align: center;">1</td>
+                            <td style="text-align: center;">$20</td>
+                            <td style="text-align: center;">$30</td>
+                            <td style="text-align: center;">$25</td>
+                            <td style="text-align: center;">$35</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">~Honda Dio Scooter</td>
+                            <td style="text-align: center;">2</td>
+                            <td style="text-align: center;">$30</td>
+                            <td style="text-align: center;">$40</td>
+                            <td style="text-align: center;">$35</td>
+                            <td style="text-align: center;">$45</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">~Honda PCX150 Scooter</td>
+                            <td style="text-align: center;">2</td>
+                            <td style="text-align: center;">$40</td>
+                            <td style="text-align: center;">$50</td>
+                            <td style="text-align: center;">$45</td>
+                            <td style="text-align: center;">$55</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Honda Pioneer ATV</td>
+                            <td style="text-align: center;">4</td>
+                            <td style="text-align: center;">$50</td>
+                            <td style="text-align: center;">$70</td>
+                            <td style="text-align: center;">$60</td>
+                            <td style="text-align: center;">$80</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Jeep Wrangler - 4 door with a/c</td>
+                            <td style="text-align: center;">5</td>
+                            <td style="text-align: center;">$70</td>
+                            <td style="text-align: center;">$100</td>
+                            <td style="text-align: center;">$85</td>
+                            <td style="text-align: center;">$125</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">Jeep Wrangler - 2 door</td>
+                            <td style="text-align: center;">4</td>
+                            <td style="text-align: center;">$60</td>
+                            <td style="text-align: center;">$85</td>
+                            <td style="text-align: center;">$70</td>
+                            <td style="text-align: center;">$90</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="weather-container">
+                <h3 class="weatherTitle">Quintana Roo Weather</h3>
+                <div class="weatherBox">
+                    <label>Today</label>
+                    <img class="wIcon" src="#" alt="#">
+                    <span class="wTemp"></span>
+                    <span class="wDescription"></span>
+                    <div>
+                        <div class="forecastBox">
+                            <section>
+                                <p class="day1name"></p>
+                                <span class="day1min"></span>
+                                <span class="day1max"></span>
+                            </section>
+                            <section>
+                                <p class="day2name"></p>
+                                <span class="day2min"></span>
+                                <span class="day2max"></span>
+                            </section>
+                            <section>
+                                <p class="day3name"></p>
+                                <span class="day3min"></span>
+                                <span class="day3max"></span>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <p class="windchill"></p>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="contact">
+            <h2>Contact Information</h2>
+            <div>
+                <img src="images/address.webp" alt="house icon" width="50" height="50">
+                <p>Centro, 77600 San Miguel de Cozumel, Quintana Roo, Mexico</p>
+            </div>
+            <div>
+                <img src="images/email.webp" alt="envelope icon" width="50" height="50">
+                <p>scoots@cozumel.com</p>
+            </div>
+            <div>
+                <img src="images/phone.webp" alt="phone icon" width="50" height="50">
+                <p>(+639) 5150 7981</p>
+            </div>
+        </div>
+        <div class="social">
+            <h2>Social Media</h2>
+            <div>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp" alt="facebook icon"
+                        width="50" height="50"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="images/twitter.webp" alt="twitter icon"
+                        width="50" height="50"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.webp"
+                        alt="instagram icon" width="50" height="50"></a>
+            </div>
+        </div>
+        <a href="attributions.html" target="_blank">Attributions</a>
+        <p>Copyright © 2023 Cozumel Scoots. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/base.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+@media screen and (min-width: 550px) {
+    header {
+        display: grid;
+        grid-template-columns: 100px 3fr 100px;
+    }
+
+    .logo {
+        width: 238.250px;
+        max-height: 75.375px;
+        padding: 0;
+        padding-left: 20px;
+        display: flex;
+        align-self: center;
+        justify-self: left;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        padding: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    /*----Navigation----*/
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-inline-start: 0px;
+        width: 70%;
+    }
+
+    nav ul li {
+        padding: 0 3%;
+    }
+
+    /*----Burger----*/
+
+    #burger {
+        display: none;
+    }
+
+    /*Hero Box*/
+    .hero-box {
+        grid-column: 1/3;
+    }
+
+    /*----Footer----*/
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer>p,
+    footer>a {
+        grid-column: 1/3;
+    }
+}
