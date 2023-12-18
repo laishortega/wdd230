@@ -79,11 +79,11 @@ nav a:hover {
 
 /*Burger*/
 #burger::before {
-    content: "︾";
+    content: "⬆";
 }
 
 #burger.open::before {
-    content: "︽";
+    content: "⬇";
 }
 
 /*Hero Box*/
