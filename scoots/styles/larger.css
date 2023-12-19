@@ -27,4 +27,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    /* Contact Info Styles */
+    .contact-info-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
 }
